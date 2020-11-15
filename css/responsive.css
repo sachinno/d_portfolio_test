@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* ================= responsive(max1000px) ================= */
+@media screen and (max-width: 1000px) {
+    /* ===== 共通パーツ =====*/
+    .con_tit {
+        padding: 0 30px;
+    }
+
+    /* ================= main ================= */
+    /* == about_info == */
+    .about_info {
+        padding: 0 10px;
+    }
+    .info_img {
+        width: 220px;
+    }
+    .info_content {
+        margin-left: 20px;
+    }
+    .info_name {
+        font-size: 3.3rem;
+    }
+    .info_txt {
+        font-size: 1.6rem;
+    }
+}
+
+/* ================= responsive(max767px) ================= */
+@media screen and (max-width: 767px) {
+    /* ================= header ================= */
+    .site_heade_inner {
+        padding: 10px 10px 15px;
+    }
+    .gnav {
+        display: none;
+    }
+
+    /* ================= drawer ================= */
+    .drawer-hamburger {
+        display: block;
+    }
+
+    /* ================= main ================= */
+    /* ==== mv ==== */
+    .mv {
+        background-position: center right -50px;
+        height: calc(100vh - 59.4px); /*画面高さ - header */
+    }
+    .mv_tit {
+        font-size: 5.6rem;
+        line-height: 6.7rem;
+    }
+    .mv_lead {
+        font-size: 1.8rem;
+    }
+
+    /* ==== about ==== */
+    .about {
+        margin-top: 60px;
+    }
+    .about_content {
+        margin-top: 20px;
+    }
+
+    /* == about_info == */
+    .about_info {
+        display: block;
+    }
+    .info_img {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .info_content {
+        margin: 30px 0 0;
+    }
+    .info_name {
+        font-size: 2.5rem;
+    }
+
+    /* == about_skill == */
+    .about_skill {
+        display: block;
+        padding: 0 20px;
+    }
+    .skill_items {
+        width: 100%;
+    }
+    .skill_items, .skill_items:first-child {
+        margin: 0 auto 30px;
+    }
+
+    /* == about_appeal == */
+    .appeal_items {
+        display: block;
+        margin-top: 10px;
+    }
+    .appeal_item, .appeal_item:last-child {
+        margin: 0 auto 40px;
+    }
+
+    /* ==== works ==== */
+    .works {
+        margin-top: 80px;
+    }
+    .con_list_sm {
+        display: block;
+        padding: 0 10%;
+    }
+    .con_list_sm .item {
+        width: 100%;
+        margin-right: 0;
+    }
+
+}
